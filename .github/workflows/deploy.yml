@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest # Image to run the worker on.
 
     env:
-      DOCKERFILE_PATH: 'dockerfiles/debian_large' # Define environment variables
+      DOCKERFILE_PATH: 'dockerfiles/debian_mini' # Define environment variables
       TAG: "ext2-webvm-base-image" # Tag of docker image.
       IMAGE_SIZE: '900M'
       DEPLOY_DIR: /webvm_deploy/ # Path to directory where we host the final image from.
